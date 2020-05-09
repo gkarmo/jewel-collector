@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Arapey|Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Crystal Collectors</h1>
+      </header>
+
+      <article class="rules">
+        <p class="title"><strong>Objective</strong></p>
+        <div class="flexed-list">
+          <ul>
+            <li>Your goal is to match the number given.</li>
+            <li>Click on each jewel to learn it's value</li>
+            <li>Match the number you win, go over you lose</li>
+            <li>ENJOY!!</li>
+          </ul>
+        </div>
+      </article>
+
+      <div class="game-area">
+        <div class="nested-results">
+          <article class="winner">
+            <p>Wins: <span class="win-count"></span></p>
+          </article>
+          <article class="random-number"></article>
+          <article class="loser">
+            <p>Losses: <span class="losses-count"></span></p>
+          </article>
+        </div>
+
+        <div class="pic-div">
+          <button class="crytal-pics">
+            <img id="pic1" src="assets/images/crystal4.jpg" alt="img1" />
+          </button>
+          <button class="crystal-pics">
+            <img id="pic2" src="assets/images/crystal1.jpg" alt="img2" />
+          </button>
+          <button class="crystal-pics">
+            <img id="pic3" src="assets/images/crystal2.jpg" alt="img3" />
+          </button>
+          <button class="crytal-pics">
+            <img id="pic4" src="assets/images/crystal3.jpg" alt="img4" />
+          </button>
+        </div>
+
+        <div class="score-count">
+          <div class="score-prompt">
+            <p>Your total score is:</p>
+            <div class="total-score"></div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </div>
+  </body>
+</html>
